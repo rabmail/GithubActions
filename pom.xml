@@ -30,14 +30,14 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution><!-- id (придумываем сами) -->
-                        <id>prepare-agent</id>
+                        <id>prepare-agent123</id>
                         <phase>initialize</phase>
                         <goals><!-- какую цель выполняем (берём из справки) -->
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution><!-- id (придумываем сами) -->
-                        <id>report</id>
+                        <id>report123</id>
                         <goals><!-- какую цель выполняем (берём из справки) -->
                             <goal>report</goal>
                         </goals>
