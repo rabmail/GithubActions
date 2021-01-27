@@ -24,6 +24,11 @@
                 <failIfNoTests>true</failIfNoTests>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.jococo</groupId>
+                <artifactId>jococo-maven-plugin</artifactId>
+                <version>0.8.5</version>
+            </plugin>
         </plugins>
     </build>
 
