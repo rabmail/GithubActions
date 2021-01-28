@@ -29,21 +29,22 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
                 <executions>
-                    <execution><!-- id (придумываем сами) -->
-                        <id>prepare-agent123</id>
+                    <execution>
+                        <id>prepare-agent</id>
                         <phase>initialize</phase>
-                        <goals><!-- какую цель выполняем (берём из справки) -->
+                        <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-                    <execution><!-- id (придумываем сами) -->
-                        <id>report123</id>
-                        <goals><!-- какую цель выполняем (берём из справки) -->
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
                             <goal>report</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>jacoco-check</id>
+                        <id>jacoco-100</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
